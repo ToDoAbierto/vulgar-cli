@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "Simple command line-interface for generating and manipulating future-now MEAN stack apps.",
   "bin": {
-    "vulgar": "./bin/vulgar"
+    "vulgar": "./bin/vulgar",
+    "vulgar-init": "./bin/vulgar.init"
   },
   "scripts": {
     "test": "mocha test/**/*.js -R spec"
