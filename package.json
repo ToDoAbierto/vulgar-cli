@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/datatypevoid/vulgar-cli/issues"
   },
-  "homepage": "https://github.com/datatypevoid/vulgar-cli#readme"
+  "homepage": "https://github.com/datatypevoid/vulgar-cli#readme",
+  "devDependencies": {
+    "commander": "^2.9.0"
+  }
 }
