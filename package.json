@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/datatypevoid/vulgar-cli#readme",
   "devDependencies": {
-    "commander": "^2.9.0"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "lodash": "^4.6.1"
   }
 }
