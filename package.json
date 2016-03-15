@@ -22,7 +22,11 @@
     "url": "https://github.com/datatypevoid/vulgar-cli/issues"
   },
   "homepage": "https://github.com/datatypevoid/vulgar-cli#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
   "dependencies": {
     "commander": "^2.9.0",
     "inquirer": "^0.12.0",
