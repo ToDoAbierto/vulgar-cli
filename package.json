@@ -6,23 +6,6 @@
     "vulgar": "./bin/vulgar.js",
     "vulgar-init": "./bin/vulgar-init.js"
   },
-  "scripts": {
-    "preinstall": "node ./scripts/preinstall",
-    "test": "mocha test/**/*.js -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/datatypevoid/vulgar-cli.git"
-  },
-  "keywords": [
-    "mean"
-  ],
-  "author": "datatypevoid<david.r.niciforovic@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/datatypevoid/vulgar-cli/issues"
-  },
-  "homepage": "https://github.com/datatypevoid/vulgar-cli#readme",
   "devDependencies": {
     "jshint": "^2.9.1",
     "mocha": "^2.4.5",
@@ -43,5 +26,23 @@
     "shelljs": "^0.3.0",
     "async-series":"latest",
     "crypto": "latest"
-  }
+  },
+  "scripts": {
+    "preinstall": "node ./scripts/preinstall.js",
+    "test": "mocha test/**/*.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datatypevoid/vulgar-cli.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "preferGlobal": true,
+  "author": "datatypevoid<david.r.niciforovic@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datatypevoid/vulgar-cli/issues"
+  },
+  "homepage": "https://github.com/datatypevoid/vulgar-cli#readme"
 }
