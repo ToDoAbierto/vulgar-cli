@@ -1,7 +1,7 @@
 {
   "name": "vulgar-cli",
   "version": "0.1.0",
-  "description": "Simple command line-interface for generating and managing MEAN stack applications.",
+  "description": "vulgar-cli is a simple command line-interface for generating and managing MEAN stack applications",
   "bin": {
     "vulgar": "./bin/vulgar.js",
     "vulgar-init": "./bin/vulgar-init.js"
