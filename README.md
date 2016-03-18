@@ -13,9 +13,6 @@ See <https://github.com/datatypevoid/vulgar> for more in-depth information about
 ## Quick start
 
 ```bash
-# install global prerequisite
-$ npm install -f generator-vulgar
-
 # create a new mean app
 $ vulgar init <nameOfApplication>
 

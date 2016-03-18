@@ -1,6 +1,6 @@
 {
   "name": "vulgar-cli",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "vulgar-cli is a simple command line-interface for generating and managing cutting-edge MEAN stack applications",
   "bin": {
     "vulgar": "./bin/vulgar.js",
@@ -17,7 +17,6 @@
     "chalk": "^0.5.1",
     "commander": "^2.9.0",
     "crypto": "latest",
-    "generator-vulgar": "^0.5.1",
     "inquirer": "^0.12.0",
     "json-file-plus": "^2.0.0",
     "lodash": "^2.4.1",
@@ -28,6 +27,7 @@
     "request": "latest",
     "shelljs": "^0.3.0",
     "yeoman-environment": "^1.5.2",
+    "yeoman-generator": "^0.22.5",
     "yo": "^1.7.0"
   },
   "scripts": {
