@@ -47,24 +47,24 @@ go to <http://0.0.0.0:8080> or <http://localhost:8080> in your browser
 
 ## Basic Usage
 
-  Explore CLI functionality:
+### Explore CLI functionality:
 
 ```
 $ vulgar --help
 ```
 
-### Create a new mean app:
+### Create a New MEAN app:
 
 ```
 $ vulgar init <NameOfYourApp>
 ```
 
-### Generating a Routable Component on the Front-end
+### Generate a Routable Angular Component on the Front-end
 
 You can generate a new Angular route via the following command (note the singular used in `nyan`):
 
 ```bash
-vulgar scaffold --ng-route nyan
+$ vulgar scaffold --ng-route nyan
 ```
 
 This will create a folder with a routable component (`nyan-root.component.ts`) with two sub-routes. The file structure will be as follows:
@@ -98,7 +98,7 @@ Afterwards to use the new route open your main app component, import `nyan-root.
 ])
 ```
 
-Visiting `http://localhost:8080/nyan` will show the `hedgehog` list.
+Visiting `http://localhost:8080/nyan` will show the `nyan` list.
 
 ## Other Commands
 
