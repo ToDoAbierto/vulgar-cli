@@ -53,11 +53,54 @@ go to <http://0.0.0.0:8080> or <http://localhost:8080> in your browser
 $ vulgar --help
 ```
 
-  Create a new mean app:
+### Create a new mean app:
 
 ```
 $ vulgar init <NameOfYourApp>
 ```
+
+### Generating a Routable Component on the Front-end
+
+You can generate a new Angular route via the following command (note the singular used in `nyan`):
+
+```bash
+vulgar scaffold --ng-route nyan
+```
+
+This will create a folder with a routable component (`nyan-root.component.ts`) with two sub-routes. The file structure will be as follows:
+
+```
+...
+|-- app
+|   |-- nyan
+|   |   |-- nyan-detail.component.html
+|   |   |-- nyan-detail.component.sass
+|   |   |-- nyan-detail.component.spec.ts
+|   |   |-- nyan-detail.component.ts
+|   |   |-- nyan-list.component.html
+|   |   |-- nyan-list.component.sass
+|   |   |-- nyan-list.component.spec.ts
+|   |   |-- nyan-list.component.ts
+|   |   |-- nyan-root.component.spec.ts
+|   |   |-- nyan-root.component.ts
+|   |   |-- nyan.service.spec.ts
+|   |   |-- nyan.service.ts
+|   |-- ...
+|-- app.ts
+...
+```
+
+Afterwards to use the new route open your main app component, import `nyan-root.component.ts` and add it in the route config:
+
+```
+@RouteConfig([
+  {path:'/nyan/...', name: 'NyanRoot', component: NyanRoot}
+])
+```
+
+Visiting `http://localhost:8080/nyan` will show the `hedgehog` list.
+
+## Other Commands
 
   Install Dependencies:
 

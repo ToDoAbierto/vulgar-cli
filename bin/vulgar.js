@@ -17,6 +17,8 @@ program.version(version,
 program
   .command('init <name> [options]',
            'Create a new MEAN application in the current working directory')
+  .command('scaffold [options]',
+           'Generate scaffolding for a MEAN component')
   .option('--env [env]', 'MEAN environment defaults to `development`')
 
   .parse(process.argv);
