@@ -10,8 +10,6 @@ var program = require('commander'),
 
 program
   .description('Generate scaffolding for a MEAN component')
-  .option('-r, --ng-route <name>', 'Create a new routable Angular component for the front-end')
-  .option('-c, --ng-component <name>', 'Create a new standalone Angular component for the front-end')
   .parse(process.argv);
 
 var options = {
