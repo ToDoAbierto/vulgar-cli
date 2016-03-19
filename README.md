@@ -64,8 +64,10 @@ $ vulgar init <NameOfYourApp>
 You can generate a new Angular route via the following command (note the singular used in `nyan`):
 
 ```bash
-$ vulgar scaffold --ng-route nyan
+$ vulgar scaffold nyan
 ```
+
+The `cli` will prompt the user to select the parent module, confirm the name for their newly minted routable `Angular` component, as well as define the`Angular` route `path` for the children components.
 
 This will create a folder with a routable component (`nyan-root.component.ts`) with two sub-routes. The file structure will be as follows:
 
