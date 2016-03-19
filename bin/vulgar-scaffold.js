@@ -16,4 +16,4 @@ var options = {
   name: program.args.length ? program.args[0] : 'doohickey'
 };
 
-utils.generateNgRoute(options);
+utils.generationWizard(options);
