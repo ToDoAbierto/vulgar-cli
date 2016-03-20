@@ -24,7 +24,13 @@ if(program.args.length < 1) {
 }
 
 //** If there are arguments, check their validity
-var validArgs = ['ngr', 'ngc'];
+var validArgs = [
+                  'ngr', // routable `Angular 2` component
+                  'ngc', // `Angular 2` component
+                  'ngd', // `Angular 2` directive
+                  'ngp', // `Angular 2` pipe
+                  'ngs'  // `Angular 2` service
+                ];
 
 //** If there is no valid argument, prompt the user to get help
 if (!_.contains(validArgs, program.args[0])) {
