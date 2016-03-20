@@ -24,7 +24,7 @@ if(program.args.length < 1) {
 }
 
 //** If there are arguments, check their validity
-var validArgs = ['ngr'];
+var validArgs = ['ngr', 'ngc'];
 
 //** If there is no valid argument, prompt the user to get help
 if (!_.contains(validArgs, program.args[0])) {
