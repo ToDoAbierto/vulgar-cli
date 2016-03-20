@@ -72,7 +72,7 @@ You can find all possible scaffolds in the table below:
 
 Scaffold  | Usage
 --------- | ----------------------------------
-Component | `vulgar scaffold my-new-component`
+Component | `vulgar scaffold ngc my-new-component`
 
 ### Generate a Routable Angular Component on the Front-end
 
