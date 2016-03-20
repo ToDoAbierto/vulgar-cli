@@ -59,6 +59,21 @@ $ vulgar --help
 $ vulgar init <NameOfYourApp>
 ```
 
+### Angular 2 Scaffolds for the Front-End
+
+You can use `vulgar scaffold` to generate various Angular 2 components:
+
+```bash
+# generate a new Angular 2 component
+$ vulgar scaffold ngc <optionalName>
+```
+
+You can find all possible scaffolds in the table below:
+
+Scaffold  | Usage
+--------- | ----------------------------------
+Component | `vulgar scaffold my-new-component`
+
 ### Generate a Routable Angular Component on the Front-end
 
 You can generate a new Angular route via the following command (note the singular used in `nyan`):
