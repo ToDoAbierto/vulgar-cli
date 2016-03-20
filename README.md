@@ -8,13 +8,15 @@ Source for npm package `vulgar`. `vulgar-cli` is a core package of the `vulgar.i
 
 The `cli` currently provides the functionality to deploy a fresh copy of a `MEAN` application as well as assist you in creating the initial admin account. Automated dependency installation is also an option.
 
+Various scaffolds are able to be generated through simple interaction with the `cli`. This serves as an easy starting point to begin coding anything across the stack. Don't waste your time with boilerplate, start with functional code.
+
 See <https://github.com/datatypevoid/vulgar> for more in-depth information about the `v#!g@r` flavor of `MEAN` stack.
 
 ## Quick start
 
 ```bash
-# install global prerequisite
-$ npm install -f generator-vulgar
+# install global prerequisites
+$ npm install -g vulgar-cli generator-vulgar
 
 # create a new mean app
 $ vulgar init <nameOfApplication>
@@ -61,18 +63,30 @@ $ vulgar init <NameOfYourApp>
 
 ### Angular 2 Scaffolds for the Front-End
 
-You can use `vulgar scaffold` to generate various Angular 2 components:
+You can use `$ vulgar scaffold` to generate various Angular 2 components:
 
 ```bash
 # generate a new Angular 2 component
-$ vulgar scaffold ngc <optionalName>
+$ vulgar scaffold ngc
+
+# generate a new Angular 2 directive
+$ vulgar scaffold ngd
+
+# look at this cool new Angular 2 pipe
+$ vulgar scaffold ngp
+
+# and this awesome Angular 2 service
+$ vulgar scaffold ngs
 ```
 
 You can find all possible scaffolds in the table below:
 
 Scaffold  | Usage
---------- | ----------------------------------
-Component | `vulgar scaffold ngc my-new-component`
+--------- | --------------------------------
+Component | `$ vulgar scaffold ngc penguin`
+Directive | `$ vulgar scaffold ngd elephant`
+Pipe      | `$ vulgar scaffold ngp lemur`
+Service   | `$ vulgar scaffold ngs coyote`
 
 ### Generate a Routable Angular Component on the Front-end
 
@@ -82,7 +96,7 @@ You can generate a new Angular route via the following command (note the singula
 $ vulgar scaffold ngr nyan
 ```
 
-The `cli` will prompt the user to select the parent module, confirm the name for their newly minted routable `Angular` component, as well as define the`Angular` route `path` for the children components.
+The `cli` will prompt the user to select the parent module, confirm the name for their newly minted routable `Angular` component, as well as define the `Angular` route `path` for the children components.
 
 This will create a folder with a routable component (`nyan-root.component.ts`) with two sub-routes. The file structure will be as follows:
 
@@ -119,7 +133,7 @@ Visiting `http://localhost:8080/nyan` will show the `nyan` list.
 
 ## Other Commands
 
-  Install Dependencies:
+Install Dependencies:
 
 ```
 $ cd <NameOfYourApp> && npm install
