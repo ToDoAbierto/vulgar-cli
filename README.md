@@ -8,7 +8,7 @@ Source for npm package `vulgar`. `vulgar-cli` is a core package of the `vulgar.i
 
 The `cli` currently provides the functionality to deploy a fresh copy of a `MEAN` application as well as assist you in creating the initial admin account. Automated dependency installation is also an option.
 
-Various scaffolds are able to be generated through simple interaction with the `cli`. This serves as an easy starting point to begin coding anything across the stack. Don't waste your time with boilerplate, start with functional code.
+Various scaffolds are able to be generated through simple interaction with the `cli`. This serves as an easy starting point to begin coding anything across the stack. Don't waste your time coding boilerplate, start with functional code.
 
 See <https://github.com/datatypevoid/vulgar> for more in-depth information about the `v#!g@r` flavor of `MEAN` stack.
 
