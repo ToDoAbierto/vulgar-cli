@@ -22,7 +22,7 @@ $ npm install -g vulgar-cli generator-vulgar
 $ vulgar init <nameOfApplication>
 
 # add required global libraries
-$ npm install -g typings webpack-dev-server concurrently
+$ npm install -g typings webpack webpack-dev-server concurrently
 
 # install the repo with npm
 # (if you declined automated dependency installation in the wizard)
