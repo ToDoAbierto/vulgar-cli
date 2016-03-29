@@ -29,8 +29,9 @@ var validArgs = [
                   'ngc', // `Angular 2` component
                   'ngd', // `Angular 2` directive
                   'ngp', // `Angular 2` pipe
-                  'ngs', // `Angular 2` service,
-                  'r'    // `Express` route
+                  'ngs', // `Angular 2` service
+                  'r',   // `Express` route
+                  'm'    // `Mongoose` model
                 ];
 
 //** If there is no valid argument, prompt the user to get help
