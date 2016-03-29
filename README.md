@@ -131,6 +131,42 @@ Afterwards to use the new route open your main app component, import `nyan-root.
 
 Visiting `http://localhost:8080/nyan` will show the `nyan` list.
 
+### Scaffolds for the Back-End
+
+You can use `$ vulgar scaffold` to generate various back-end components:
+
+```bash
+# generate a new Mongoose model
+$ vulgar scaffold m leopard
+```
+
+```bash
+# generate a new Express route
+$ vulgar scaffold r leopard
+```
+
+Afterwards to use the new model and route together, open `app/routes.js`, import your new route and add it to the `RESTful API` section:
+
+```
+// Load our API routes for the `new` component
+import leopardRoutes from './routes/_leopard.router.js';
+
+// . . .
+
+// #### RESTful API Routes
+
+  // Pass in our Express app and Router
+  leopardRoutes(app, router);
+
+```
+
+You can find all possible scaffolds in the table below:
+
+Scaffold  | Usage
+--------- | --------------------------
+Model     | `$ vulgar scaffold m leopard`
+Route     | `$ vulgar scaffold r leopard`
+
 ## Other Commands
 
 Install Dependencies:
